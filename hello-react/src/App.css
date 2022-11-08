@@ -1,0 +1,114 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#corpo{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 30px;
+  gap: 10px;
+  width: auto;
+  height: auto;
+}
+
+.Elements-Body{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 30px;
+  width: auto;
+  height: auto;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+.cabecalho{
+
+  background-color: rgb(32, 32, 50);
+  
+  display: flex;
+  padding: 30px;
+  margin: 30px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+}
+.icon{
+
+  width: 100px;
+  height: 100px;
+
+}
+.iconhead{
+  width: 20px;
+  height: 20px;
+}
+.iconstop{
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between
+
+}
+
+h1{
+
+  color: aliceblue;
+  font-size: 100px;
+  font-weight: bold;
+  width: 600px;
+  height: 100px;
+  padding: 1rem;
+  margin: 2.5rem;
+  gap: 10px;
+}
+h2{
+
+  font-size:medium;
+  
+}
+.cabecalho > p{
+
+  color: aliceblue;
+  border: 1rem;
+  padding: 2rem;
+  margin: 2rem;
+  font-size: 30px;
+  width: 400px;
+  height: 100px;
+  gap: 10px;
+
+}
+.cElements{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+  gap: 10px;
+
+
+}
+button{
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: large;
+  width: 170px;
+  height: 80px;
+  padding:1rem;
+  margin: 4rem;
+  gap: 10px;
+  border-radius: 9px;
+  background: #f3f0f5;
+  box-shadow: inset 12px 12px 18px #d1ced3, inset -12px -12px 18px #ffffff;
+  align-items: center;
+          }
+#logo{
+  width: 80px;
+  height: 80px;
+
+}
